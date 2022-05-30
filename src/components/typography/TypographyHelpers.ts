@@ -1,5 +1,5 @@
 import { css } from 'styled-components/macro';
-import { mobile } from 'styles/breakpoints';
+import { lMobile, mobile } from 'styles/breakpoints';
 import { Theme } from 'styles/theme';
 import { TextType } from './Typography';
 
@@ -30,7 +30,7 @@ export const applyTextType = (type: TextType, theme: Theme) => {
 				font-weight: ${theme.typography.h3.fontWeight};
 				font-size: ${theme.typography.h3.fonstSize};
 				line-height: ${theme.typography.h3.lineHeight};
-				@media ${mobile} {
+				@media ${lMobile} {
 				font-size: ${theme.typography.h3.fontSizeMobile};
 				line-height: ${theme.typography.h3.lineHeightMobile};
 				}

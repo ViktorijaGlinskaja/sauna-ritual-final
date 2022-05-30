@@ -1,10 +1,19 @@
 import React from 'react';
-import { SectionWrapper, Typography } from 'components';
+import { Navbar } from './elements/navbar/Navbar';
+import { Footer } from 'components';
+import { About, Action, Brands, ExampleBox, Hero, Quiz } from './sections';
 
 const Home: React.FC = () => (
-		<SectionWrapper>
-				<Typography type='h1' color='secondary' textAlign="center">This is my boilerplate</Typography>
-		</SectionWrapper>
-	);
+	<>
+		<Navbar />
+		<Hero />
+		<About />
+		<ExampleBox />
+		<Brands />
+		<Quiz />
+		<Action />
+		<Footer />
+	</>
+);
 
 export default Home;
