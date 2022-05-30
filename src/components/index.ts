@@ -8,6 +8,7 @@ export * from './buttons/BlueButton';
 
 //cards
 export * from './cards/ProductCard';
+export * from './cards/ReviewCard';
 
 //inputs
 export * from './inputs/Input';
