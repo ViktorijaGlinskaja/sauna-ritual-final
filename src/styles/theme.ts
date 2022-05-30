@@ -84,10 +84,9 @@ export const theme = {
 		},
 		h3: {
 			fonstSize: '3.2rem',
-			fontSizeTablet: '3rem',
-			fontSizeMobile: '2rem',
+			fontSizeMobile: '2.2rem',
 			lineHeight: '4rem',
-			lineHeightMobile: '3rem',
+			lineHeightMobile: '2.75rem',
 			fontWeight: 500,
 		},
 		h4: {
