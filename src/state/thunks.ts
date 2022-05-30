@@ -10,7 +10,6 @@ export const fetchQuestions = createAsyncThunk(
             const { data }: AxiosResponse = await axios.get(
                 "https://627fbba6be1ccb0a4664296c.mockapi.io/reviews/QuizQuestions"
             );
-            console.log(data);
             return data;
         } catch (error) {
             console.log(error);
