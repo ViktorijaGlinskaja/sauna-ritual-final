@@ -6,6 +6,9 @@ export * from './banners/Banner';
 export * from './buttons/elements/BaseButton';
 export * from './buttons/BlueButton';
 
+//cards
+export * from './cards/ProductCard';
+
 //inputs
 export * from './inputs/Input';
 
@@ -16,7 +19,7 @@ export * from './wrappers/Container';
 export * from './wrappers/ContentWrapper';
 export * from './wrappers/FlexWrapper';
 export * from './wrappers/GridWrapper';
-export * from './wrappers/SectionWrapper';
+export * from './wrappers/ProductContainer';
 
 // export * from './texts/h1';
 export * from './typography/Typography';
