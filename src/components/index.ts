@@ -21,7 +21,8 @@ export * from './wrappers/FlexWrapper';
 export * from './wrappers/GridWrapper';
 export * from './wrappers/ProductContainer';
 
-// export * from './texts/h1';
+//footer
+export * from './footer/Footer';
 export * from './typography/Typography';
 
 //images
