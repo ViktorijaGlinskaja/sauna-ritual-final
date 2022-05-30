@@ -1,5 +1,10 @@
+//banner
+export * from './banners/AnimatedBanner';
+export * from './banners/Banner';
+
 //buttons
 export * from './buttons/elements/BaseButton';
+export * from './buttons/BlueButton';
 
 //inputs
 export * from './inputs/Input';
