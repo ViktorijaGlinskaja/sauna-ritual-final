@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
+import { LINKS } from 'constants/Links';
 import { theme } from 'styles/theme';
 
 interface Props {
@@ -10,11 +11,8 @@ interface Props {
 const Menu: React.FC<Props> = ({ open, setOpen }) => {
     return (
         <StyledMenu open={open} setOpen={setOpen}>
-            <a href="#about" onClick={() => (setOpen(!open))}>About</a>
-            <a href="#products" onClick={() => (setOpen(!open))}>Products</a>
-            <a href="#brands" onClick={() => (setOpen(!open))}>Brands</a>
-            <a href="#quiz" onClick={() => (setOpen(!open))}>Quiz</a>
-            <a href="#sauna" onClick={() => (setOpen(!open))}>Sauna Benefits</a>
+            {LINKS.map(({ title, href }) =>
+                <a key={href} href={href} onClick={() => (setOpen(!open))}> {title}</a>)}
         </StyledMenu>
     );
 };

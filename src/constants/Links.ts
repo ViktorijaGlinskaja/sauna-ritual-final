@@ -1,19 +1,27 @@
 export interface Link {
-    src: string,
+    title: string,
     href: string,
 }
 
 export const LINKS: Link[] = [
     {
-        src: 'facebook',
-        href: 'https://www.facebook.com'
+        title: 'About',
+        href: '#about'
     },
     {
-        src: 'twitter',
-        href: 'https://www.twitter.com'
+        title: 'Products',
+        href: '#products'
     },
     {
-        src: 'instagram',
-        href: 'https://www.instagram.com'
+        title: 'Brands',
+        href: '#brands'
+    },
+    {
+        title: 'Quiz',
+        href: '#quiz'
+    },
+    {
+        title: 'Sauna',
+        href: '#sauna'
     },
 ]

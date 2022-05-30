@@ -1,6 +1,6 @@
 import React from 'react'
 import { FlexWrapper, Image, Typography } from 'components';
-import { LINKS } from 'constants/Links';
+import { LINKS } from 'constants/SocialLinks';
 
 export const Footer: React.FC = () => (
     <FlexWrapper
