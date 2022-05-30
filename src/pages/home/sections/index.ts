@@ -1,3 +1,4 @@
 export * from './About';
-export * from './Hero';
+export * from './Brands';
 export * from './Example';
+export * from './Hero';

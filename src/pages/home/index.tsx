@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar } from './elements/navbar/Navbar';
-import { About, ExampleBox, Hero } from './sections';
+import { About, Brands, ExampleBox, Hero } from './sections';
 
 const Home: React.FC = () => (
 	<>
@@ -8,6 +8,7 @@ const Home: React.FC = () => (
 		<Hero />
 		<About />
 		<ExampleBox />
+		<Brands />
 	</>
 );
 
