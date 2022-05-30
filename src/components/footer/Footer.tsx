@@ -21,7 +21,7 @@ export const Footer: React.FC = () => (
         </Typography>
         <FlexWrapper>
             {LINKS.map(({ src, href }) =>
-                <a href={href}>
+                <a href={href} key={href}>
                     <Image src={src} alt={src} margin='0rem 0.5rem' />
                 </a>)
             }
