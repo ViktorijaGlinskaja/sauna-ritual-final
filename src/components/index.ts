@@ -12,6 +12,16 @@ export * from './cards/ProductCard';
 //inputs
 export * from './inputs/Input';
 
+//navbar
+export * from './navbar/Navbar';
+
+//footer
+export * from './footer/Footer';
+export * from './typography/Typography';
+
+//images
+export * from './Image'
+
 //wrappers
 export * from './wrappers/SectionWrapper';
 export * from './wrappers/Box';
@@ -21,9 +31,3 @@ export * from './wrappers/FlexWrapper';
 export * from './wrappers/GridWrapper';
 export * from './wrappers/ProductContainer';
 
-//footer
-export * from './footer/Footer';
-export * from './typography/Typography';
-
-//images
-export * from './Image'
