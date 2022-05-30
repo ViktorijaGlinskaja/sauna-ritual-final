@@ -14,6 +14,7 @@ body {
 }
 html {
     font-family: ${theme.fontFamily.primary};
+	scroll-padding-top: 4.5rem;
 }
 `;
 
