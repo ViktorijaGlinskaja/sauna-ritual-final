@@ -17,7 +17,7 @@ import { Colors, Theme } from 'styles/theme';
 
 import { applyTextType } from './TypographyHelpers';
 
-export type TextType = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'body16' | 'caption14';
+export type TextType = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'body18' | 'body16' | 'caption14';
 
 export enum TextTag {
 	'h1' = 'h1',
@@ -26,6 +26,7 @@ export enum TextTag {
 	'h4' = 'h4',
 	'h5' = 'h5',
 	'h6' = 'h6',
+	'body18' = 'p',
 	'body16' = 'p',
 	'caption14' = 'p',
 }
@@ -43,6 +44,7 @@ const typographyProperties = compose(
 
 export interface TextProps extends SpaceProps<Theme>, TypographyProps<Theme> {
 	color?: Colors;
+	cursor? : string;
 	type?: TextType;
 	textTransform?: Property.TextTransform;
 	textDecoration?: Property.TextDecoration;
@@ -73,6 +75,7 @@ const Text = styled.p<TextProps>`
 	&& {
 		${typographyProperties}
 	}
+	cursor: ${({ cursor }) => cursor || ''};
 	text-transform: ${({ textTransform }) => textTransform || ''};
 	text-decoration: ${({ textDecoration }) => textDecoration || ''};
 `;

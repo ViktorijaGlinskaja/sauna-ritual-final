@@ -6,8 +6,7 @@ import {
     position,
     PositionProps,
 } from 'styled-system';
-import { tablet } from 'styles/breakpoints';
-
+import { sTablet } from 'styles/breakpoints';
 import { Theme } from 'styles/theme';
 
 const containerProps = compose(color, position);
@@ -18,7 +17,7 @@ export const Container = styled.div<Styles<Theme>>`
 	margin: 0 auto;
     max-width: 72rem;
     padding: 0 1rem;
-    @media ${tablet} {
+    @media ${sTablet} {
     max-width: 100%;
     }
     && {
