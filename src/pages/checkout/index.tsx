@@ -1,12 +1,14 @@
 import React from 'react';
 import { Footer, Navbar } from 'components';
-import { FAQ, Reviews } from './sections';
+import { FAQ, Plan, Reviews, Summary } from './sections';
 
 const Checkout: React.FC = () => (
     <>
         <Navbar />
         <Reviews />
         <FAQ />
+        <Plan />
+        <Summary />
     </>
 );
 
