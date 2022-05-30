@@ -1,5 +1,5 @@
 import styled from "styled-components/macro";
-import { mobile, tablet } from "styles/breakpoints";
+import { mobile, sTablet } from "styles/breakpoints";
 import { Colors } from "styles/theme";
 
 interface SectionWrapperStyles {
@@ -13,7 +13,7 @@ export const SectionWrapper = styled.section<SectionWrapperStyles>`
   min-height: ${({ minHeight }) => minHeight || ""};
   background-color: ${({ backgroundColor, theme }) =>
     backgroundColor ? theme.colors[backgroundColor] : ""};
-  @media ${tablet} {
+  @media ${sTablet} {
     padding: 3rem;
   }
   @media ${mobile} {
