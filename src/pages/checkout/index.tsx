@@ -9,6 +9,7 @@ const Checkout: React.FC = () => (
         <FAQ />
         <Plan />
         <Summary />
+        <Footer />
     </>
 );
 
